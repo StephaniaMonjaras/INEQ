@@ -72,6 +72,8 @@
             this.btnInicioSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInicioSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInicioSesion.ForeColor = System.Drawing.Color.White;
+            this.btnInicioSesion.Image = ((System.Drawing.Image)(resources.GetObject("btnInicioSesion.Image")));
+            this.btnInicioSesion.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnInicioSesion.Location = new System.Drawing.Point(279, 263);
             this.btnInicioSesion.Name = "btnInicioSesion";
             this.btnInicioSesion.Size = new System.Drawing.Size(99, 36);
@@ -86,6 +88,8 @@
             this.btnsalir.FlatAppearance.BorderSize = 0;
             this.btnsalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnsalir.ForeColor = System.Drawing.Color.White;
+            this.btnsalir.Image = ((System.Drawing.Image)(resources.GetObject("btnsalir.Image")));
+            this.btnsalir.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnsalir.Location = new System.Drawing.Point(279, 318);
             this.btnsalir.Name = "btnsalir";
             this.btnsalir.Size = new System.Drawing.Size(99, 38);
@@ -97,6 +101,8 @@
             // 
             this.lblusuario.AutoSize = true;
             this.lblusuario.Font = new System.Drawing.Font("Ravie", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblusuario.Image = ((System.Drawing.Image)(resources.GetObject("lblusuario.Image")));
+            this.lblusuario.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.lblusuario.Location = new System.Drawing.Point(138, 182);
             this.lblusuario.Name = "lblusuario";
             this.lblusuario.Size = new System.Drawing.Size(74, 17);
@@ -107,7 +113,9 @@
             // 
             this.lblContraseña.AutoSize = true;
             this.lblContraseña.Font = new System.Drawing.Font("Ravie", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContraseña.Location = new System.Drawing.Point(113, 217);
+            this.lblContraseña.Image = ((System.Drawing.Image)(resources.GetObject("lblContraseña.Image")));
+            this.lblContraseña.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lblContraseña.Location = new System.Drawing.Point(108, 217);
             this.lblContraseña.Name = "lblContraseña";
             this.lblContraseña.Size = new System.Drawing.Size(104, 17);
             this.lblContraseña.TabIndex = 6;
